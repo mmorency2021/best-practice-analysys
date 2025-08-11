@@ -342,4 +342,59 @@ spec:
 
 ---
 
-*Document Version: 1.0 | Last Updated: August 2025 | Sources: Red Hat CertSuite v5.5.7*
+## 📚 References & Additional Resources
+
+### Security Best Practices Documentation
+- **[Kubernetes Security Best Practices](https://kubernetes.io/docs/concepts/security/)** - Official Kubernetes security guidelines
+- **[Pod Security Standards](https://kubernetes.io/docs/concepts/security/pod-security-standards/)** - Kubernetes pod security policy framework
+- **[OpenShift Security Guide](https://docs.openshift.com/container-platform/latest/security/index.html)** - Red Hat OpenShift security documentation
+- **[NIST Container Security Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-190.pdf)** - SP 800-190 Application Container Security Guide
+
+### Capability Management & Linux Security
+- **[Linux Capabilities Manual](https://man7.org/linux/man-pages/man7/capabilities.7.html)** - Complete Linux capabilities reference
+- **[Container Security Best Practices](https://sysdig.com/blog/container-security-best-practices/)** - Industry container security guidelines
+- **[CIS Kubernetes Benchmark](https://www.cisecurity.org/benchmark/kubernetes)** - Center for Internet Security Kubernetes benchmark
+
+### Networking & Isolation
+- **[Kubernetes Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)** - Network policy configuration guide
+- **[CNI Security Considerations](https://github.com/containernetworking/cni/blob/main/SPEC.md#security-considerations)** - Container Network Interface security
+- **[Service Mesh Security](https://istio.io/latest/docs/concepts/security/)** - Istio service mesh security patterns
+
+### Resource Management & Performance
+- **[Kubernetes Resource Management](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/)** - Resource requests and limits guide
+- **[Quality of Service Classes](https://kubernetes.io/docs/concepts/workloads/pods/pod-qos/)** - Pod QoS and resource prioritization
+- **[Node Resource Management](https://kubernetes.io/docs/concepts/architecture/nodes/#node-status)** - Node capacity and allocatable resources
+
+### Observability & Monitoring
+- **[Prometheus Best Practices](https://prometheus.io/docs/practices/naming/)** - Metrics collection and naming conventions
+- **[OpenTelemetry Documentation](https://opentelemetry.io/docs/)** - Observability standards and implementation
+- **[Kubernetes Events Monitoring](https://kubernetes.io/docs/tasks/debug-application-cluster/events-stackdriver/)** - Event monitoring and debugging
+
+### RBAC & Authentication
+- **[Kubernetes RBAC Documentation](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)** - Role-Based Access Control configuration
+- **[Service Account Security](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/)** - Service account best practices
+- **[OpenShift RBAC Guide](https://docs.openshift.com/container-platform/latest/authentication/using-rbac.html)** - OpenShift-specific RBAC patterns
+
+### Compliance & Certification
+- **[Red Hat Certification Guide](https://connect.redhat.com/zones/containers)** - Container and operator certification process
+- **[FIPS Compliance in OpenShift](https://docs.openshift.com/container-platform/latest/installing/installing-fips.html)** - Federal Information Processing Standards
+- **[SOC 2 Compliance](https://www.redhat.com/en/about/trust/compliance/soc-2-type-2)** - Red Hat SOC 2 compliance documentation
+
+### Lifecycle Management
+- **[Kubernetes Graceful Shutdown](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-termination)** - Pod termination and cleanup
+- **[Health Check Patterns](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)** - Liveness, readiness, and startup probes
+- **[Deployment Strategies](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#strategy)** - Rolling updates and deployment patterns
+
+### Platform Integration
+- **[Helm Security](https://helm.sh/docs/topics/security/)** - Helm chart security considerations
+- **[Operator Framework](https://operatorframework.io/operator-capabilities/)** - Operator maturity model and best practices
+- **[Universal Base Images (UBI)](https://access.redhat.com/articles/4238681)** - Red Hat UBI usage and benefits
+
+### Impact Analysis Resources
+- **[MITRE ATT&CK for Containers](https://attack.mitre.org/matrices/enterprise/containers/)** - Container attack techniques and mitigations
+- **[Container Escape Techniques](https://unit42.paloaltonetworks.com/breaking-docker-via-runc-explaining-cve-2019-5736/)** - Real-world container escape examples
+- **[Kubernetes Threat Matrix](https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/)** - Microsoft's Kubernetes security threat model
+
+---
+
+*Document Version: 1.0 | Last Updated: $(date) | Sources: Red Hat CertSuite v5.5.7*
